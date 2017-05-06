@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        .father {
+            height: 300px;
+            width: 300px;
+            background: #ccc;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-align-items: center;
+            align-items: center;/*侧轴方向居中对齐*/
+            -webkit-justify-content: center;
+            justify-content: center;/*主轴方向居中对齐*/
+        }
+        .son{
+            float: left;
+            width: 200px;
+            height: 200px;
+            background: green;
+        }
+    </style>
+</head>
+<body>
+<div class="father">
+    <div class="son">float：left</div>
+</div>
+</body>
+</html>
